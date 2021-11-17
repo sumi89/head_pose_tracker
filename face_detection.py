@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
-modelFile = "models_/res10_300x300_ssd_iter_140000.caffemodel"
-configFile = "models_/deploy.prototxt.txt"
+modelFile = "res10_300x300_ssd_iter_140000.caffemodel"
+configFile = "deploy.prototxt.txt"
 net = cv2.dnn.readNetFromCaffe(configFile, modelFile)
 img = cv2.imread('test3.jpg')
 
