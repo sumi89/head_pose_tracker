@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-cap = cv2.VideoCapture('videos/foreign_object_and_occlusion.mp4')
+cap = cv2.VideoCapture('foreign_object_and_occlusion.mp4')
 font = cv2.FONT_HERSHEY_SIMPLEX 
 
 while(True):
